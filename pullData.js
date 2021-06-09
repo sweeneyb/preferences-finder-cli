@@ -6,10 +6,7 @@ if(process.argv.length > 2) {
   user = process.argv[2]
 }
 
-admin.initializeApp({
-    credential: admin.credential.applicationDefault(),
-    databaseURL: 'https://preference-finder.firebaseio.com'
-});
+admin.initializeApp();
 
 const collectionsRef = admin.firestore().collection("ratings")
 
