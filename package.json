@@ -1,0 +1,15 @@
+{
+  "name": "preferences_cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pullData.js",
+  "scripts": {
+    "pullData": "node pullData",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Sweeney",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^9.9.0"
+  }
+}
